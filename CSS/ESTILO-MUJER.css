@@ -1,0 +1,46 @@
+.promo-section{
+    background-color: rgb(3, 3, 3);
+    padding: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.content-wrapper{
+    max-width: 100%
+
+}
+.subtitle{
+    display: block;
+    color: rgb(168, 74, 192);
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+h1{
+    color: rgb(253, 253, 253);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+P{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+
+}
+.btn-cta{
+    display: inline-block;
+    background-color: rgb(92, 89, 89);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+.btn-cta:hover{
+    background-color: rgb(197, 188, 188);
+}
+@media (max-width:600px){
+    h1{
+        font-size: 1.8rem;
+    }
+    .promo-section{
+        padding: 50px;
+    }
+}
